@@ -1,0 +1,108 @@
+.users-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95vw;
+   
+  
+  }
+.users-container td{
+  padding-left: 90px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+ 
+}
+.users-container td img{
+  width: 50px;
+  height: 50x;
+}
+thead{
+  border: 2px solid;
+}
+.filter-controls{
+  display: flex;
+  margin-left: 60vw;
+}
+.filter{
+  padding:5px
+}
+@media (max-width: 768px) {
+  .users-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .users-container td{
+    padding-left: 2% !important;
+    flex-wrap: wrap;
+    font-size: 10px;
+  }
+  .filter-controls{
+    margin-left: 10vw !important;
+  }
+  .filter{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-row{
+    display: flex;
+    flex-direction: column;
+  }
+  table{
+    margin-left: 2px !important;
+  }
+}
+.filter-controls option{
+ margin: 5px;
+}
+.filter-controls label{
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: inherit;
+  font-size: medium;
+}
+.data{
+  background-color:rgb(243, 243, 162);
+  width:100%;
+  height:45px;
+}
+.top-row{
+  display: flex;
+}
+table{
+  border: 1px solid grey;
+}
+table td{
+  border: 1px solid grey;
+}
+table th{
+  background-color: aliceblue;
+}
+table{
+  margin-left: 100px;
+}
+.data img{
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+}
+select{
+ background-color: white;
+ margin: 5px;
+}
+option{
+  background-color: whitesmoke;
+  padding: 5px;
+}
+table{
+  background-color: aliceblue
+}
+
+
+
+
+
+
+  
+ 
+  
